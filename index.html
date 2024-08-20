@@ -28,13 +28,18 @@
       :is(td, th).center {
         text-align: center;
       }
-      body > footer {   
-        align-content: space-between;
+      body {
+        min-height: 100vh;
         display: flex;
+        flex-direction: column;
+      }
+      body > footer {   
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         white-space: pre;
+        align-content: space-between;
+        justify-content: space-between;
+        margin-top:auto;
       }
       body > footer > hr {
         width: 100%;
