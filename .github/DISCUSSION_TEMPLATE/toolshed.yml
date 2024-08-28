@@ -37,6 +37,8 @@ body:
         - Applying
         - Evaluating
         - Publishing
+    validations:
+      required: true
   - type: dropdown
     id: type
     attributes:
@@ -50,6 +52,8 @@ body:
         - Package
         - Suite
         - App
+    validations:
+      required: true
   - type: dropdown
     id: docs
     attributes:
@@ -64,6 +68,8 @@ body:
         - Superb
         - Verbose
         - Examplary
+    validations:
+      required: true
   - type: markdown
     attributes: 
       value: "## Review"
