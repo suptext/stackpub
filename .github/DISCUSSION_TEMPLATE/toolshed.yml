@@ -37,11 +37,9 @@ body:
   - type: input
     id: more
     attributes:
-      label: "Enjoy"
+      label: "More"
       # description: "More reasons to like this."
       placeholder: "..."
-    validations:
-      required: true
   - type: markdown
     attributes: 
       value: "##"
@@ -61,14 +59,17 @@ body:
   - type: input
     id: less
     attributes:
-      label: "Beware"
+      label: "Flaw"
       # description: "Less reasons to like this."
       placeholder: "..."
-    validations:
-      required: true
   - type: markdown
     attributes: 
-      value: "##"      
+      value: "##"    
+  - type: textarea
+    id: hint
+    attributes:
+      label: "Hint"
+      placeholder: "..."
   - type: dropdown
     id: env
     attributes:
