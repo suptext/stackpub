@@ -22,18 +22,21 @@ body:
       label: Package
       description: "Provide the package endpoint"
       placeholder: "https://.."
+  - type: markdown
+    attributes: 
+      value: "## Meta"
   - type: dropdown
     id: step
     attributes:
-      description: Useful during
-      label: "Step:"
+      # description: Useful during
+      label: "When:"
       multiple: true
       options:
-        - Initiation
-        - Preparation
-        - Application
-        - Evaluation
-        - Publication
+        - Initiating
+        - Preparing
+        - Applying
+        - Evaluating
+        - Publishing
   - type: dropdown
     id: type
     attributes:
@@ -49,7 +52,7 @@ body:
         - App
   - type: markdown
     attributes: 
-      value: "##"
+      value: "## Review"
   - type: dropdown
     id: pros
     attributes:
