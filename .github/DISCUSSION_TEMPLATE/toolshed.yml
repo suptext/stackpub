@@ -16,6 +16,37 @@ body:
       label: Repository
       description: "Provide the source code repository link"
       placeholder: "https://.."
+  - type: input
+    id: package
+    attributes:
+      label: Package
+      description: "Provide the package endpoint"
+      placeholder: "https://.."
+  - type: dropdown
+    id: step
+    attributes:
+      description: Useful during
+      label: "Step:"
+      multiple: true
+      options:
+        - Initiation
+        - Preparation
+        - Application
+        - Evaluation
+        - Publication
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type:"
+      multiple: true
+      options:
+        - Component
+        - Module
+        - Library
+        - Platform
+        - Package
+        - Suite
+        - App
   - type: markdown
     attributes: 
       value: "##"
@@ -23,7 +54,7 @@ body:
     id: pros
     attributes:
       # description: You may select more than one.
-      label: "Pros"
+      label: "Pros:"
       multiple: true
       options:
         - Performance
@@ -31,13 +62,12 @@ body:
         - Cost-effective
         - Feature-rich
         - Scalable
-      default: 1
     validations:
       required: true
   - type: input
     id: more
     attributes:
-      label: "Feat"
+      label: "Feat:"
       description: "More reasons to like this."
       placeholder: "..."
   - type: markdown
@@ -45,7 +75,7 @@ body:
       value: "##"
   - type: dropdown
     attributes:
-      label: "Cons"
+      label: "Cons:"
       # description: You may select more than one.
       multiple: true
       options:
@@ -59,7 +89,7 @@ body:
   - type: input
     id: less
     attributes:
-      label: "Flaw"
+      label: "Flaw:"
       description: "Less reasons to like this."
       placeholder: "..."
   - type: markdown
@@ -80,6 +110,7 @@ body:
         - MacOS
         - Linux
         - Windows
+        - Docker
         - Chrome
         - FireFox
         - Safari
