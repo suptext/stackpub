@@ -1,54 +1,47 @@
-title: "[General] "
-labels: ["General Introduction"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
-      value: |
-        ### Heading
+title: Tool Review Form
+description: Share your thoughts on a tool you've used
+category: tools
+fields:
+  - type: text
+    name: tool_name
+    label: Tool Name
+    description: Enter the name of the tool you're reviewing
+  - type: url
+    name: tool_url
+    label: Tool URL
+    description: Provide the official website or documentation link
+  - type: url
+    name: tool_repo
+    label: Tool Repo
+    description: Provide the source code repository link
+  - type: checkbox_list
+    name: pros
+    label: Pros
+    description: Check the advantages you found using this tool
+    options:
+      - Performance
+      - Ease of use
+      - Cost-effective
+      - Feature-rich
+      - Scalability
+      - Security
+      - Other (please specify below)
+      - label: Other
+        placeholder: "Enter another advantage"
+  - type: checkbox_list
+    name: cons
+    label: Cons
+    description: Check the disadvantages you experienced
+    options:
+      - Steep learning curve
+      - Limited compatibility
+      - Expensive
+      - Outdated features
+      - Poor customer support
+      - Other (please specify below)
+      - label: Other
+        placeholder: "Enter another disadvantage"
+  - type: text
+    name: image_link
+    label: Image Link (Optional)
+    description: Add an image link if available
