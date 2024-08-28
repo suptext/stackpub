@@ -58,10 +58,10 @@ body:
       options:
         - Absent
         - Scarce
+        - Brief
         - Fair
         - Good
         - Superb
-        - Brief
         - Verbose
         - Examplary
   - type: markdown
