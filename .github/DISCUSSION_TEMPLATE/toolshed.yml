@@ -2,10 +2,11 @@ title: Toolstore
 labels: ["tool"]
 body:
   - type: checkboxes
+    id: operating-systems
     attributes:
-      label: Pros
+      label: Which operating systems have you used?
+      description: You may select more than one.
       options:
-        - label: This one!
-        - label: I won't stop you if you check this one, too
-        - label: Other
-          placeholder: "Enter another advantage"
+        - label: macOS
+        - label: Windows
+        - label: Linux
