@@ -112,9 +112,9 @@ body:
       options:
         - Steep learning curve
         - Limited compatibility
-        - Costs of usage
         - Outdated features
         - Poor support
+        - Usage costs
     validations:
       required: true
   - type: input
