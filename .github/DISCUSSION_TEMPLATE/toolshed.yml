@@ -37,8 +37,8 @@ body:
   - type: input
     id: more
     attributes:
-      label: "More"
-      description: "More reasons to like this."
+      label: "Enjoy"
+      # description: "More reasons to like this."
       placeholder: "..."
     validations:
       required: true
@@ -61,8 +61,8 @@ body:
   - type: input
     id: less
     attributes:
-      label: "Less"
-      description: "Less reasons to like this."
+      label: "Beware"
+      # description: "Less reasons to like this."
       placeholder: "..."
     validations:
       required: true
