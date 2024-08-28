@@ -29,7 +29,8 @@ body:
         - Java
         - R
   - type: markdown
-    attributes: "___"
+    attributes: 
+      value: "___"
   - type: dropdown
     id: pros
     attributes:
@@ -55,7 +56,8 @@ body:
     validations:
       required: true
   - type: markdown
-    attributes: "___"
+    attributes: 
+      value: "___"
   - type: dropdown
     id: cons
     attributes:
