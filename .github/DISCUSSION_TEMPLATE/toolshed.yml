@@ -16,21 +16,6 @@ body:
       label: Repository
       description: "Provide the source code repository link"
       placeholder: "http://.."
-  - type: dropdown
-    id: env
-    attributes:
-      label: Environment
-      description: You may select more than one.
-      multiple: true
-      options:
-        - MacOS
-        - Linux
-        - Windows
-        - Python
-        - JavaScript
-        - Julia
-        - Java
-        - R
   - type: markdown
     attributes: 
       value: "## Pros"
@@ -38,7 +23,7 @@ body:
     id: pros
     attributes:
       # description: You may select more than one.
-      label: "One or more"
+      label: "### Test"
       multiple: true
       options:
         - Performance
@@ -82,3 +67,21 @@ body:
       placeholder: "..."
     validations:
       required: true
+  - type: markdown
+    attributes: 
+      value: "##"
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      description: You may select more than one.
+      multiple: true
+      options:
+        - MacOS
+        - Linux
+        - Windows
+        - Python
+        - JavaScript
+        - Julia
+        - Java
+        - R
