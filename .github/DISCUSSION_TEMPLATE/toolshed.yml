@@ -17,7 +17,7 @@ body:
     id: more
     attributes:
       label: Other
-      description: "Moer reasons to like this"
-      placeholder: "[ ... ]"
+      description: "More reasons to like this"
+      placeholder: "..."
     validations:
       required: true
