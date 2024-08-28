@@ -23,22 +23,21 @@ body:
     id: pros
     attributes:
       # description: You may select more than one.
-      label: "It's:"
+      label: "Are:"
       multiple: true
       options:
         - Performance
         - Ease of use
         - Cost-effective
         - Feature-rich
-        - Scalability
-        - Security
+        - Scalable
       default: 1
     validations:
       required: true
   - type: input
     id: more
     attributes:
-      label: "Other:"
+      label: "Other"
       # description: "More reasons to like this."
       placeholder: "..."
     validations:
@@ -48,21 +47,21 @@ body:
       value: "## Cons"
   - type: dropdown
     attributes:
-      label: "It's:"
+      label: "Are:"
       # description: You may select more than one.
       multiple: true
       options:
         - Steep learning curve
         - Limited compatibility
-        - Expensive
+        - Costs of usage
         - Outdated features
-        - Poor customer support
+        - Poor support
     validations:
       required: true
   - type: input
     id: less
     attributes:
-      label: "Other:"
+      label: "Other"
       # description: "Less reasons to like this."
       placeholder: "..."
     validations:
