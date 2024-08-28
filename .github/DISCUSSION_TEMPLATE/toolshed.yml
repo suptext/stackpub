@@ -4,7 +4,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: Link
+      label: URL
       description: "Provide the official website or documentation link"
       placeholder: "http://.."
   - type: input
@@ -51,7 +51,7 @@ body:
     id: more
     attributes:
       label: Other
-      description: "More reasons to like this"
+      description: "More reasons to like this."
       placeholder: "..."
     validations:
       required: true
@@ -76,7 +76,7 @@ body:
     id: less
     attributes:
       label: Other
-      description: "Less reasons to like this"
+      description: "Less reasons to like this."
       placeholder: "..."
     validations:
       required: true
