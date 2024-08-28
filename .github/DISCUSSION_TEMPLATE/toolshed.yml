@@ -38,7 +38,7 @@ body:
     id: pros
     attributes:
       # description: You may select more than one.
-      label: " "
+      label: " "
       multiple: true
       options:
         - Performance
@@ -63,7 +63,7 @@ body:
       value: "## Cons"
   - type: dropdown
     attributes:
-      label: " "
+      label: " "
       # description: You may select more than one.
       multiple: true
       options:
