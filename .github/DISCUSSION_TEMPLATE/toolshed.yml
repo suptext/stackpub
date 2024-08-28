@@ -1,4 +1,4 @@
-title: Toolstore
+title: "[I used] "
 labels: ["tool"]
 body:
   - type: checkboxes
@@ -18,6 +18,25 @@ body:
     attributes:
       label: Other
       description: "More reasons to like this"
+      placeholder: "..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: cons
+    attributes:
+      label: Cons
+      description: You may select more than one.
+      options:
+        - label: Steep learning curve
+        - label: Limited compatibility
+        - label: Expensive
+        - label: Outdated features
+        - label: Poor customer support
+  - type: input
+    id: less
+    attributes:
+      label: Other
+      description: "Less reasons to like this"
       placeholder: "..."
     validations:
       required: true
