@@ -45,10 +45,15 @@ body:
       label: "Type"
       multiple: true
       options:
+        - Self-hosted
+        - Cloud-based
+        - Standalone
         - Component
+        - Endpoint
         - Module
-        - Library
+        - Framework
         - Platform
+        - Library
         - Package
         - Suite
         - App
@@ -64,8 +69,10 @@ body:
         - Scarce
         - Brief
         - Fair
+        - Live
         - Good
         - Superb
+        - Static
         - Verbose
         - Examplary
     validations:
