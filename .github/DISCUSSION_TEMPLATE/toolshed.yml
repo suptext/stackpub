@@ -133,7 +133,7 @@ body:
   - type: dropdown
     id: env
     attributes:
-      label: Used:
+      label: "Used:"
       description: Usage environment conditions.
       multiple: true
       options:
