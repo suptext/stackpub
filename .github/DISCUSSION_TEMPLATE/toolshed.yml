@@ -1,18 +1,22 @@
 title: "[I used] "
 labels: ["tool"]
 body:
-  - type: checkboxes
+  - type: dropdown
     id: pros
     attributes:
       label: Pros
       description: You may select more than one.
+      multiple: true
       options:
-        - label: Performance
-        - label: Ease of use
-        - label: Cost-effective
-        - label: Feature-rich
-        - label: Scalability
-        - label: Security
+        - Performance
+        - Ease of use
+        - Cost-effective
+        - Feature-rich
+        - Scalability
+        - Security
+      default: 0
+    validations:
+      required: true
   - type: input
     id: more
     attributes:
