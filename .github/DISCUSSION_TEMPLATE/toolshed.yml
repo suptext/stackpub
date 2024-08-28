@@ -28,6 +28,8 @@ body:
         - Julia
         - Java
         - R
+  - type: markdown
+    attributes: "___"
   - type: dropdown
     id: pros
     attributes:
@@ -52,6 +54,8 @@ body:
       placeholder: "..."
     validations:
       required: true
+  - type: markdown
+    attributes: "___"
   - type: dropdown
     id: cons
     attributes:
