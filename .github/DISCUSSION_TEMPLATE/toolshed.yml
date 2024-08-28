@@ -5,22 +5,22 @@ body:
     attributes: 
       value: "## Info"
   - type: input
-    id: url
-    attributes:
-      label: URL
-      description: "Provide the official website or documentation link"
-      placeholder: "https://.."
-  - type: input
     id: repo
     attributes:
       label: Repository
-      description: "Provide the source code repository link"
+      description: "Provide a source code repository link"
       placeholder: "https://.."
   - type: input
     id: registry
     attributes:
       label: Registry
-      description: "Provide the package endpoint"
+      description: "Provide a package endpoint"
+      placeholder: "https://.."
+  - type: input
+    id: guide
+    attributes:
+      label: URL
+      description: "Provide a documentation or usage guide link"
       placeholder: "https://.."
   - type: markdown
     attributes: 
@@ -133,8 +133,8 @@ body:
   - type: dropdown
     id: env
     attributes:
-      label: Environment
-      description: You may select more than one.
+      label: Used:
+      description: Usage environment conditions.
       multiple: true
       options:
         - MacOS
@@ -150,3 +150,9 @@ body:
         - Julia
         - Java
         - R
+  - type: input
+    id: else
+    attributes:
+      label: "Else:"
+      description: Other conditions.
+      placeholder: "..."
