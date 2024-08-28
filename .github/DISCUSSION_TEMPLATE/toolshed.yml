@@ -7,12 +7,12 @@ body:
       label: Pros
       description: You may select more than one.
       options:
-        - Performance
-        - Ease of use
-        - Cost-effective
-        - Feature-rich
-        - Scalability
-        - Security
+        - label: Performance
+        - label: Ease of use
+        - label: Cost-effective
+        - label: Feature-rich
+        - label: Scalability
+        - label: Security
   - type: input
     id: more
     attributes:
