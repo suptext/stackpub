@@ -52,7 +52,7 @@ body:
       placeholder: "..."
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: cons
     attributes:
       label: Cons
