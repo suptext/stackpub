@@ -1,6 +1,9 @@
 title: "[I used] "
 labels: ["tool"]
 body:
+  - type: markdown
+    attributes: 
+      value: "## Info"
   - type: input
     id: url
     attributes:
@@ -30,11 +33,10 @@ body:
         - R
   - type: markdown
     attributes: 
-      value: "___"
+      value: "## Pros"
   - type: dropdown
     id: pros
     attributes:
-      label: Pros
       description: You may select more than one.
       multiple: true
       options:
@@ -57,9 +59,8 @@ body:
       required: true
   - type: markdown
     attributes: 
-      value: "___"
+      value: "## Cons"
   - type: dropdown
-    id: cons
     attributes:
       label: Cons
       description: You may select more than one.
