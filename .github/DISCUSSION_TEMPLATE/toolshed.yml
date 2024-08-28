@@ -17,9 +17,9 @@ body:
       description: "Provide the source code repository link"
       placeholder: "https://.."
   - type: input
-    id: package
+    id: registry
     attributes:
-      label: Package
+      label: Registry
       description: "Provide the package endpoint"
       placeholder: "https://.."
   - type: markdown
