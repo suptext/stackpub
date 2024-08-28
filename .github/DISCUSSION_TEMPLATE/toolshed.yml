@@ -37,8 +37,8 @@ body:
   - type: input
     id: more
     attributes:
-      label: "More"
-      # description: "More reasons to like this."
+      label: "Feat"
+      description: "More reasons to like this."
       placeholder: "..."
   - type: markdown
     attributes: 
@@ -60,7 +60,7 @@ body:
     id: less
     attributes:
       label: "Flaw"
-      # description: "Less reasons to like this."
+      description: "Less reasons to like this."
       placeholder: "..."
   - type: markdown
     attributes: 
